@@ -1,0 +1,539 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body styles */
+body {
+    width: 100%;
+    background-image: url(images/hero-background.jpg); /* Background image */
+    background-size: cover;
+}
+p{
+    color: #000;
+}
+
+a{
+    color: #000;
+}
+a:hover{
+    color: #fff;
+}
+
+/* Navigation styles */
+nav {
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+}
+
+/* Logo styles */
+.nav-links .logo {
+    height: 120px;
+    width: 400px;
+    background-image: url(images/logo.png); /* Logo image */
+    background-size: cover;
+}
+
+/* Navigation links styles */
+nav ul li a {
+    color: #fff;
+    position: relative;
+    font-size: 25px;
+    padding: 10px;
+    margin-right: 40px;
+}
+
+/* Hover effect on navigation links */
+nav ul li a:hover {
+    color: rgb(242, 202, 150);
+    text-decoration: underline;
+}
+
+/*profile image*/
+.profile img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 85em;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 5px #a29b9b;
+    transition: transform 0.5s ease;
+}
+
+.profile img:hover{
+    transform: scale(0.9);
+    opacity: 1;
+    box-shadow: 0px 0px 5px 5px #fff;
+}
+span{
+    color: rgb(15, 163, 221);
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Map container styles */
+.map-container {
+    margin-right: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+/* Contact box styles */
+.box {
+    height: 10em;
+    width: 20em;
+    margin-right: 2em;
+    margin-top: 5em;
+    border-radius: 10px;
+    background-color: rgb(188, 222, 138);
+    box-shadow: 0px 0px 10px 5px #666363;
+    transition: transform 0.5s ease;
+}
+
+/* Hover effect on the box */
+.box:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    box-shadow: 0px 0px 10px 5px #fff;
+}
+
+/* Container for boxes */
+.boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Voice recording image styles */
+.voice-recording {
+    background-image: url(images/boxes-bg.jpg);
+    background-size: cover;
+}
+
+/* SOS button styles */
+.sos {
+    background-image: url(images/boxes-bg.jpg);
+    background-size: cover;
+    opacity: 10;
+}
+
+/* Setting button styles */
+.setting {
+    background-image: url(images/boxes-bg.jpg);
+    background-size: cover;
+    opacity: 10;
+}
+
+/* emergency call button styles */
+.emergency-call{
+    background-image: url(images/boxes-bg.jpg);
+    background-size: cover;
+    opacity: 10;
+}
+
+/* Styles specific to Contact.html */
+/* Numbers container styles */
+.numbers {
+    margin-left: 10em;
+    position: relative;
+    top: 2em;
+    display: flex;
+    gap: 8em;
+}
+
+/* Contact heading styles */
+.contact-heading h2 {
+    margin-left: 5em;
+    margin-top: 1em;
+    font-size: 40px;
+    color: rgb(14, 14, 238);
+}
+
+/* Emergency contacts container styles */
+.emergency-contacts {
+    height: 27.5em;
+    width: 30em;
+    background: #fff;
+    gap: 2em;
+    border-radius: 10px;
+}
+
+/* Call button styles within emergency contacts */
+.emergency-contacts .call {
+    height: 70px;
+    background-color: #463e3e;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+/* Icon styles within call button */
+.emergency-contacts .call img {
+    height: 50px;
+}
+
+/* Phone icon position */
+.phone-icon {
+    position: absolute;
+    left: 25%;
+}
+
+/* SMS icon position */
+.sms-icon {
+    position: absolute;
+    left: 30%;
+}
+
+/* Hero banner styles */
+.hero-banner {
+    height: 30em;
+    width: 40em;
+}
+
+/* Footer styles */
+footer {
+    background-color: rgb(229, 214, 195);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-bottom { padding-block: 30px; }
+  
+.footer-bottom .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright { margin-block-end: 0; }
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.additional-links{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.contact-info p {
+    margin-right: 40px;
+}
+
+/* Copyright styles */
+.footer-content .copyright {
+    text-align: center;
+    margin-top: 10px;
+}
+.footer-gap{
+    height: 300px;
+}
+
+/*policy.html*/
+
+.policy-heading{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.private-policy{
+    width: 65%;
+    position: relative;
+    left: 18%;
+    margin-top:2% ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px #fff;
+}
+
+.policy-parah{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(86, 185, 224);
+     
+}
+
+.reason-heading{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;
+    background-color: #000;
+    border-radius: 10px;
+
+}
+
+.policy-boxes{
+    font-size: 30px;
+    color: #000;
+    background-image: url(images/boxes-bg.jpg);
+    margin-top: 10px;
+    width:95%;
+    text-align: center;
+}
+
+.policy-boxes-list{
+      margin: 25px 0 0 25px ;
+      font-size: 20px;
+      color: rgb(24, 56, 130);
+}
+
+.policy-html{
+    background-image: url(images/boxes-bg.jpg);
+    background-size: cover;
+}
+
+.policy-link{
+    font-size: 30px;
+}
+.policy-link:hover{
+    text-decoration: underline;
+    
+}
+
+
+/* Media queries for mobile and tablet devices */
+@media only screen and (max-width: 768px) {
+    /* Logo size for smaller screens */
+    .nav-links .logo {
+        height: 60px;
+        width: 200px;
+    }
+
+    /* Navigation links font size for smaller screens */
+    nav ul li a {
+        font-size: 16px;
+        margin-right: 15px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Profile image position for smaller screens */
+    .profile img {
+        left: auto;
+        right: 10px;
+        top: 10px;
+        size: 200px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Container alignment for smaller screens */
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Numbers container alignment for smaller screens */
+    .numbers {
+        margin-left: 0;
+        margin-top: 0;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    /* Contact box width for smaller screens */
+    .box {
+        width: 90%;
+        height: 9em;
+        margin-top: 2em;
+    }
+
+    /* Container for boxes */
+    .boxes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    span {
+        
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Footer alignment for smaller screens */
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Additional links alignment */
+    .additional-links {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    /* Contact info alignment */
+    .contact-info p {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    /* Adjustments for copyright text */
+    .copyright {
+        margin-top: 0;
+    }
+
+    .footer-gap {
+        height: 150px;
+    }
+    
+    iframe .google-map{
+        width: 100px;
+    }
+}
+
+/*contact.html responsive*/
+
+/* Media query for screens smaller than 768px (e.g., tablets) */
+@media only screen and (max-width: 768px) {
+    .numbers {
+        margin-left: 1em; /* Adjust margin for smaller screens */
+    }
+
+    .contact-heading h2 {
+        margin-left: 1em; /* Adjust margin for smaller screens */
+        font-size: 25px; /* Adjust font size for smaller screens */
+    }
+
+    .emergency-contacts {
+        width: 80%; /* Adjust width for smaller screens */
+        max-width: 25em; /* Limit maximum width for smaller screens */
+    }
+
+    .emergency-contacts .call {
+        padding: 0.5em 0.8em; /* Adjust padding for smaller screens */
+    }
+
+    .phone-icon,
+    .sms-icon {
+        margin-right: 0.3em; /* Adjust margin between icons for smaller screens */
+    }
+
+    .hero-banner {
+        margin: 1em auto; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Media query for screens smaller than 480px (e.g., mobile devices) */
+@media only screen and (max-width: 480px) {
+    .numbers {
+        margin-left: 0.5em;
+        flex-wrap: wrap; /* Adjust margin for smaller screens */
+    }
+
+    .contact-heading h2 {
+        margin-left: 0.5em; /* Adjust margin for smaller screens */
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+
+    .emergency-contacts {
+        width: 80%; /* Adjust width for smaller screens */
+       
+    }
+
+    .emergency-contacts .call {
+        padding: 0.5em 0.6em; /* Adjust padding for smaller screens */
+    }
+
+    .phone-icon,
+    .sms-icon {
+        display: none; /* Adjust margin between icons for smaller screens */
+    }
+
+    .emergency-contacts img.hero-banner {
+        flex-wrap: wrap;
+        width: 90%; /* Adjust margin for smaller screens */
+    }
+}
+
+/*policy.html responsive code*/
+/* Responsive styles */
+
+@media only screen and (max-width: 768px) {
+    .private-policy {
+        width: 90%;
+        left: 5%;
+        margin-top: 5%;
+    }
+
+    .policy-heading,
+    .reason-heading {
+        font-size: 30px;
+    }
+    .policy-heading{
+        margin-top: 5%;
+    }
+
+    .policy-parah {
+        font-size: 20px;
+    }
+
+    .policy-boxes {
+        font-size: 25px;
+    }
+
+    .policy-link {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .private-policy {
+        width: 100%;
+        left: 0;
+        margin-top: 5%;
+    }
+
+    .policy-heading,
+    .reason-heading {
+        font-size: 25px;
+    }
+
+    .policy-parah {
+        font-size: 18px;
+    }
+
+    .policy-boxes {
+        font-size: 20px;
+    }
+
+    .policy-boxes-list {
+        font-size: 16px;
+    }
+
+    .policy-link {
+        font-size: 20px;
+    }
+}
